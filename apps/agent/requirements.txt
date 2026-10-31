@@ -1,0 +1,8 @@
+# PrintFlow Windows Print Agent Dependencies
+PySide6>=6.6.0
+requests>=2.31.0
+urllib3>=2.0.0
+PyMuPDF>=1.23.0
+Pillow>=10.0.0
+# Windows specific
+pywin32>=306; sys_platform == 'win32'
